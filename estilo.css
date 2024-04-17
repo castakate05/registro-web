@@ -1,0 +1,22 @@
+body{
+    table {
+        width: 50%;
+        border-collapse: collapse;
+        margin: 20px auto;
+      }
+      th, td {
+        border: 1px solid #161616;
+        padding: 8px;
+        text-align: left;
+      }
+      th {
+        background-color: #f2f2f2;
+      }
+      background-color: rgb(180, 216, 218);
+
+}
+
+.uno {
+    background-color: rgb(93, 143, 145);
+
+}

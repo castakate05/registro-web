@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilo.css">
+  <title class="uno">Formulario de registro - Mi web</title>
+</head>
+<body>
+  <div>
+    <h1>Formulario de registro</h1>
+    <form action="" method="GET">
+      <label for="nombre">Nombre:</label><br>
+      <input type="text" id="nombre" name="nombre" maxlength="50" required><br>
+
+      <label for="apellidos">Apellidos:</label><br>
+      <input type="text" id="apellidos" name="apellidos" maxlength="50" required><br>
+
+      <label for="sexo">Sexo:</label><br>
+      <input type="radio" id="hombre" name="sexo" value="hombre" required>
+      <label for="hombre">Hombre</label><br>
+      <input type="radio" id="mujer" name="sexo" value="mujer" required>
+      <label for="mujer">Mujer</label><br>
+
+      <label for="email">Correo electrónico:</label><br>
+      <input type="email" id="email" name="email" required><br>
+
+      <input type="checkbox" id="info" name="info" checked>
+      <label for="info">Deseo recibir información sobre novedades y ofertas</label><br>
+
+      <input type="checkbox" id="aceptar" name="aceptar" required>
+      <label for="aceptar">Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos</label><br>
+
+      <input type="submit" value="Enviar">
+    </form>
+  </div>
+
+  <div>
+    <title>Desempleo en Colombia</title>
+    <style>
+      table {
+        width: 50%;
+        border-collapse: collapse;
+        margin: 20px auto;
+      }
+      th, td {
+        border: 1px solid #161616;
+        padding: 8px;
+        text-align: left;
+      }
+      th {
+        background-color: #f2f2f2;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+        <h1>Desempleo en Colombia</h1>
+        <table>
+          <tr>
+            <th>Año</th>
+            <th>Tasa de Desempleo (%)</th>
+          </tr>
+          <tr>
+            <td>2016</td>
+            <td>9.2</td>
+          </tr>
+          <tr>
+            <td>2017</td>
+            <td>9.4</td>
+          </tr>
+          <tr>
+            <td>2018</td>
+            <td>9.7</td>
+          </tr>
+          <tr>
+            <td>2019</td>
+            <td>9.3</td>
+          </tr>
+          <tr>
+            <td>2020</td>
+            <td>13.4</td>
+          </tr>
+          <tr>
+            <td>Ciudad con mayor desempleo</td>
+            <td>Medellín</td>
+          </tr>
+          <tr>
+            <td>Ciudad con menor desempleo</td>
+            <td>Barranquilla</td>
+          </tr>
+        </table>
+        
+    </div>
+</body>
+</html>
